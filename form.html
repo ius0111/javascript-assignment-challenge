@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>南方大学网上报名</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<form>
+		<div class="title-container">
+		<div class="header">
+			<a href="https://www.southern.edu.my/home.html">
+			<img src="image/suc.png">	
+			</a>
+			<h1>网上报名 Online Registration</h1>
+		</div>
+		<div class="insturction">
+			Instructions:
+			<ol>
+				<li>This form contains five (5) parts, please fill out this form before submission.</li>
+				<li>The required fields are marked in asterisk (*).</li>
+				<li>Kindly please check and make sure contact informations are correct, our staff will use these information to get in touch with you.</li>
+				<li>No amendment is allowed after you submit your application.</li>
+			</ol>
+			注意事项：
+			<ol>
+				<li>这个报名表格共有五大项目，请仔细填写。</li>
+				<li>必填资料已被标上星号（*）。</li>
+				<li>我们将会使用您所提供的联络方式与您联络，请确保联络资料正确无误。</li>
+				<li>表格提交后将无法再修改所提交的资料。</li>
+			</ol>
+		</div>
+	</div>
+	<hr>
+	<div class="form-container">
+		<div class="column-box" style="border: 2px solid green;line-height: 35px;border-radius: 5px;">
+			<h2 style="color: white;background-color: green; margin: 0; padding: 5px;">1. 入学学期 & 资料 - Intake & choices</h2>
+			<div class="first-selection" style="padding: 0px 10px;">
+			<p>申请入学梯次 - Intake and programme</p>
+			<p>请选择入学年份和入学梯次。<br>Please select intake year and intake.</p>
+			<p style="display: inline-block;">入学年份与梯次*<br>Year/Intake</p>
+			<input id="intake" class="first-input" type="radio" name="intake" value="May2020" required>
+			<label>2020/May</label>
+			<hr>
+			<p>申请科系 - Choice of Programme</p>
+			<label>第一志愿*<br>1st Choice</label>
+			<select style="margin-left: 20px; width: 50%">
+				<option>BBA - Bachelor of Arts (Honours) In Business Administration - 商业行政(荣誉)学士课程</option>
+				<option>BCL - Bachelor of Arts (Honours) In Chinese Language & Literature - 中文(荣誉)学士学位</option>
+				<option>BCP - Bachelor of Arts (Honours) in Counseling & Psychology - 咨商与心理学(荣誉)学士课程</option>
+				<option>BCP - Bachelor of Arts (Honours) in Counseling & Psychology - 咨商与心理学(荣誉)学士课程</option>
+				<option>BECE - Bachelor of Early Childhood Education - 幼儿教育学士课程</option>
+			</select>
+			<br>
+			<label">第二志愿*<br>2st Choice</label>
+			<select style="margin-left: 20px; width: 50%">
+				<option>BBA - Bachelor of Arts (Honours) In Business Administration - 商业行政(荣誉)学士课程</option>
+				<option>BCL - Bachelor of Arts (Honours) In Chinese Language & Literature - 中文(荣誉)学士学位</option>
+				<option>BCP - Bachelor of Arts (Honours) in Counseling & Psychology - 咨商与心理学(荣誉)学士课程</option>
+				<option>BCP - Bachelor of Arts (Honours) in Counseling & Psychology - 咨商与心理学(荣誉)学士课程</option>
+				<option>BECE - Bachelor of Early Childhood Education - 幼儿教育学士课程</option>
+			</select>
+			<br>
+			<label>第三志愿*<br>3st Choice</label>
+			<select style="margin-left: 20px; width: 50%">
+				<option>BBA - Bachelor of Arts (Honours) In Business Administration - 商业行政(荣誉)学士课程</option>
+				<option>BCL - Bachelor of Arts (Honours) In Chinese Language & Literature - 中文(荣誉)学士学位</option>
+				<option>BCP - Bachelor of Arts (Honours) in Counseling & Psychology - 咨商与心理学(荣誉)学士课程</option>
+				<option>BCP - Bachelor of Arts (Honours) in Counseling & Psychology - 咨商与心理学(荣誉)学士课程</option>
+				<option>BECE - Bachelor of Early Childhood Education - 幼儿教育学士课程</option>
+			</select>
+			<br>
+			<p style="display: inline-block;">申请住宿 *<br>Hostel</p>
+			<input value="yes" type="radio" name="hostel" style="margin-left: 50px;" required>
+			<label>是 Yes</label>
+			<input value="no" type="radio" name="hostel" required>
+			<label>否 No</label>
+			<br>
+			<label>奖贷申请<br>Scholarship</label>
+			<select style="margin-left: 10px; width: 50%">
+				<option>学优生奖学金 - Excellent Students Full Scholarship</option>
+				<option>多元文化奖学金 - Multi-Cultural Scholarship</option>
+				<option>新生奖学金 - New Student Scholarship</option>
+			</select>
+			</div>
+		</div>
+
+		<div class="column-box" style="margin-top:25px; border: 2px solid red;line-height: 35px;border-radius: 5px;">
+			<h2 style="color: white;background-color: red; margin: 0; padding: 5px;">2. 个人资料 - Personal Information</h2>
+			<div class="first-selection" style="padding: 0px 10px;">
+			<label>中文姓名<br>Chinese name</label>
+			<input id="chinesename" type="text" name="chinesename" required ><br>
+			<label>英文姓名*<br>English name</label>
+			<input id="englishname" type="text" name="englishname" required ><br>
+			<p style="display: inline-block;">性别*<br>Gender</p>
+			<input  value="male" type="radio" name="gender" required>
+			<label>男 Male</label>
+			<input  type="radio" value="female" name="gender" required>
+			<label>女 Female</label><br>
+			<label>出生日期*<br>Date of Birth</label>
+			<input  type="text" id="dateofbirth" name="dateofbirth" placeholder="dd-mm-yyyy" required><br>
+			<p style="display: inline-block;">国际*<br>National</p>
+			<select>
+				<option>马来西亚-MALAYSIAN</option>
+			</select><br>
+			<label>身份证件号*<br>NRIC No.</label>
+			<input  type="number" id="nricno1" name="nricno1" placeholder="000000-00-0000" required><br>
+			<label>宗族<br>Religion</label>
+			<select>
+				<option>MALAY-MALAY</option>
+				<option>CHINESEY</option>
+				<option>INDIAN</option>
+			</select><br>
+			<label>地址*<br>Address</label>
+			<input  type="text" id="address" name="address" required><br>
+			<label>电子邮件*<br>Email</label>
+			<input  type="email" id="email" name="email" placeholder="xx@xxx.com" required>
+			</div>
+		</div>
+
+		<div class="column-box" style="margin-top:25px; border: 2px solid blue;line-height: 35px;border-radius: 5px;">
+			<h2 style="color: white;background-color: blue; margin: 0; padding: 5px;">3. 家庭资料 - Family details</h2>
+			<div class="first-selection" style="padding: 0px 10px;">
+				<p style="display: inline-block;">监护人*<br>Guardian</p>
+				<input  type="radio" value="father" name="guardian" required>
+				<label>父亲 Father</label>
+				<input  type="radio" value="mother" name="guardian" required>
+				<label>母亲 Mother</label>
+				<input  type="radio" value="guardian" name="guardian" required>
+				<label>父母非监护人 Guardian not parent</label><br>
+				<label>中文姓名*<br>Chinese Name</label>
+				<input id="pchinesename" type="type" name="pchinesename" required><br>
+				<label>英文姓名*<br>English Name</label>
+				<input id="penglishname" type="type" name="penglishname" required><br>
+				<label>身份证号*<br>Identity Card No.</label>
+				<input id="nricno2" type="number" name="nricno2" placeholder="000000-00-0000" required><br>
+				<label>联络电话*<br>Phone number</label>
+				<input id="phoneno" type="number" name="phoneno" placeholder="Exp:018xxxxxxx" required><br>
+				<label>家庭年收入*<br>Household annual income</label>
+				<select>
+					<option>Less than RM10,000</option>
+					<option>RM10,000 to RM29,999</option>
+					<option>RM30,000 to RM49,999</option>
+					<option>RM50,000 to RM69,999</option>
+					<option>RM70,000 or more/option>
+				</select>
+			</div>
+		</div>
+
+		<div class="column-box" style="margin-top:25px; border: 2px solid purple;line-height: 35px;border-radius: 5px;">
+			<h2 style="color: white;background-color: purple; margin: 0; padding: 5px;">4. 学历 - Academic qualification</h2>
+			<div class="first-selection" style="padding: 0px 10px;">
+				<label>中学*<br>Secondary school</label><br>
+				<input id="state1" type="text" name="state1" placeholder="State" required><br>
+				<input id="schoolname1" type="text" name="schoolname1" placeholder="School name" required><br>
+				<input id="year1" type="text" name="year1" placeholder="Year" required><br>
+				<label>大专*<br>Higher Instituition</label><br>
+				<input id="state2" type="text" name="state2" placeholder="State" required><br>
+				<input id="college2" type="text" name="college2" placeholder="College name" required><br>
+				<input id="year2" type="text" name="year2" placeholder="Year" required>
+			</div>
+		</div>
+
+		<div class="column-box" style="margin-top:25px; border: 2px solid orange;line-height: 35px;border-radius: 5px;">
+			<h2 style="color: white;background-color: orange; margin: 0; padding: 5px;">5. 入学成绩 - Certificate & Grades</h2>
+			<div class="first-selection" style="padding: 0px 10px;">
+				<label>证书名称*<br>Certificate</label>
+				<input id="certificate" type="text" name="certificate" placeholder="Name of Certificate" required><br>
+				<label>五项科目 5 Best Subject</label><br>
+				<input id="sub1" type="text" name="sub1" placeholder="Subject Name" required><input placeholder="Grade" type="text" id="gra1" name="gra1" style="margin-left: 15px;" required><br>
+				<input id="sub2" type="text" name="sub2" placeholder="Subject Name" required><input placeholder="Grade" type="text" id="gra2" name="gra2" style="margin-left: 15px;" required><br>
+				<input id="sub3" type="text" name="sub3" placeholder="Subject Name" required><input placeholder="Grade" type="text" id="gra3" name="gra3" style="margin-left: 15px;" required><br>
+				<input id="sub4" type="text" name="sub4" placeholder="Subject Name" required><input placeholder="Grade" type="text" id="gra4" name="gra4" style="margin-left: 15px;" required><br>
+				<input id="sub5" type="text" name="sub5" placeholder="Subject Name" required><input placeholder="Grade" type="text" id="gra5" name="gra5" style="margin-left: 15px;" required><br>
+			</div>
+		</div>
+		<input type="submit" name="submit" onclick="check()" style="margin-top: 25px;" value="Submit">
+	</div>
+	</form>
+</body>
+	<script type="text/javascript">
+		function checkcolumn21(){
+			var a = document.getElementById('chinesename');
+			var aa = a.value.length;
+			if (aa === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn22(){
+			var b = document.getElementById('englishname');
+			var bb = b.value.length;
+			if (bb === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn23(){
+			var c = document.getElementById('dateofbirth');
+			var cc = c.value.length;
+			if (cc === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn24(){
+			var d = document.getElementById('nricno1');
+			var dd = d.value.length;
+			if (dd === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn25(){
+			var e = document.getElementById('address');
+			var ee = e.value.length;
+			if (ee === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn26(){
+			var f = document.getElementById('email');
+			var ff = f.value.length;
+			if (ff === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn31(){
+			var g = document.getElementById('pchinesename');
+			var gg = g.value.length;
+			if (gg === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn32(){
+			var h = document.getElementById('penglishname');
+			var hh = h.value.length;
+			if (hh === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn33(){
+			var i = document.getElementById('nricno2');
+			var ii = i.value.length;
+			if (ii === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn34(){
+			var j = document.getElementById('phoneno');
+			var jj = j.value.length;
+			if (jj === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn41(){
+			var k = document.getElementById('state1');
+			var kk = k.value.length;
+			if (kk === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn42(){
+			var l = document.getElementById('schoolname1');
+			var ll = l.value.length;
+			if (ll === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn43(){
+			var m = document.getElementById('year1');
+			var mm = m.value.length;
+			if (mm === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn44(){
+			var n = document.getElementById('state2');
+			var nn = n.value.length;
+			if (nn === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn45(){
+			var o = document.getElementById('college2');
+			var oo = o.value.length;
+			if (oo === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn46(){
+			var p = document.getElementById('year2');
+			var pp = p.value.length;
+			if (pp === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function checkcolumn51(){
+			var q = document.getElementById('certificate');
+			var qq = q.value.length;
+			if (qq === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}function checkcolumn52(){
+			var r = document.getElementById('sub1');
+			var rr = r.value.length;
+			if (rr === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}function checkcolumn53(){
+			var s = document.getElementById('gra1');
+			var ss = s.value.length;
+			if (s === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}function checkcolumn54(){
+			var t = document.getElementById('sub2');
+			var tt = t.value.length;
+			if (tt === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}function checkcolumn55(){
+			var u = document.getElementById('gra2');
+			var uu = u.value.length;
+			if (uu === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}function checkcolumn56(){
+			var v = document.getElementById('sub3');
+			var vv = v.value.length;
+			if (vv === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}function checkcolumn57(){
+			var w = document.getElementById('gra3');
+			var ww = w.value.length;
+			if (ww === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}function checkcolumn58(){
+			var x = document.getElementById('sub4');
+			var xx = x.value.length;
+			if (xx === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}function checkcolumn59(){
+			var y = document.getElementById('gra4');
+			var yy = y.value.length;
+			if (yy === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}function checkcolumn510(){
+			var z = document.getElementById('sub5');
+			var zz = z.value.length;
+			if (zz === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}function checkcolumn511(){
+			var z1 = document.getElementById('gra5');
+			var z11 = z1.value.length;
+			if (z11 === 0) {
+				alert('Sorry,fill the required column first');
+				return false;
+			}else{
+				return true;
+			}
+		}
+		function check(){
+			if (checkcolumn21()) {
+				if (checkcolumn22()) {
+					if (checkcolumn23()) {
+						if(checkcolumn24()){
+							if (checkcolumn25()) {
+								if (checkcolumn26()) {
+									if (checkcolumn31()) {
+										if (checkcolumn32()) {
+											if (checkcolumn33()) {
+												if (checkcolumn34()) {
+													if (checkcolumn41()) {
+														if (checkcolumn42()) {
+															if (checkcolumn43()) {
+																if (checkcolumn44()) {
+																	if (checkcolumn45()) {
+																		if (checkcolumn46()) {
+																			if (checkcolumn51()) {
+																				if (checkcolumn52()) {
+																					if (checkcolumn53()) {
+																						if (checkcolumn54()) {
+																							if (checkcolumn55()) {
+																								if (checkcolumn56()) {
+																									if (checkcolumn57()) {
+																										if (checkcolumn58()) {
+																											if (checkcolumn59()) {
+																												if (checkcolumn510()) {
+																													if (checkcolumn511()) {
+																														alert('Submited')
+																													}
+																												}
+																											}
+																										}
+																									}
+																								}
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	</script>
+</html>
