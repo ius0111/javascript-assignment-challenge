@@ -3,6 +3,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 }
 .header{
@@ -46,7 +47,11 @@ input::-webkit-inner-spin-button {
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
+}
+.instruction{
+	max-width: 250px;
 }
 .header{
 	display: flex;
@@ -82,4 +87,8 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+.header {
+	display: flex;
+	flex-wrap: wrap;
 }
